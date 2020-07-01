@@ -1,0 +1,56 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(back2.jpg) no-repeat;
+	background-size: cover;
+}
+.box{
+	width: 650px;
+	background: rgba(0,0,0,0.4);
+	margin: auto;
+	margin-top: 5%;
+	padding: 40px;
+	text-align: center;
+	font-family: sans-serif;
+	color: white;
+}
+.box-img{
+	border-radius: 90%;
+	width:200px;
+	height: 200px;
+}
+a{
+	height: 100px;
+	width: 100px;
+	background-color: #f5f6fa;
+	border-radius: 60px;
+	text-align: center;
+	margin: 10px;
+	line-height: 110px;
+	box-shadow: 1px 4px 2px 2px #dcdde1;
+
+}
+a i{
+	transition: all 0.3s linear;
+}
+a:hover i{
+	transform: scale(1.4);
+}
+.fa-facebook{
+	color: #0080FF;
+}
+.fa-instagram{
+	color: #E1306C;
+}
+.fa-linkedin{
+	color: #0E76A8;
+}
+.box h1{
+	font-size: 30px;
+	letter-spacing: 4px;
+
+}
+.box p{
+	font-size: 20px;
+	letter-spacing: 3px;
+}
